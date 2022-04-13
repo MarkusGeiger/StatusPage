@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button, Space } from 'antd';
+import StatusCard from './components/StatusCard';
 
 function App() {
   return (
@@ -17,6 +19,15 @@ function App() {
         >
           Learn React
         </a>
+        <Button type="primary">Button</Button>
+        <Space direction='vertical'>
+          <StatusCard/>
+          <StatusCard/>
+          <StatusCard/>
+          <StatusCard/>
+          <StatusCard/>
+          <StatusCard/>
+        </Space>
       </header>
     </div>
   );
