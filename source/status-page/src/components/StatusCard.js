@@ -1,8 +1,8 @@
 import { Card } from "antd";
 
-function StatusCard() {
+function StatusCard(props) {
     return (
-    <Card title="Item">
+    <Card title={props.title} style={{margin: "5px"}}>
         <p>Up and running!</p>
     </Card>);
 }
