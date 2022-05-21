@@ -16,6 +16,7 @@ export function BaseLayout (){
     return (<Layout className="layout">
       <Header>
         <div className="logo" />
+        StatusPage
         {/* <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
           {new Array(15).fill(null).map((_, index) => {
             const key = index + 1;
